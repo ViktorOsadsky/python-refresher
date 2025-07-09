@@ -14,15 +14,3 @@ class Bankaccount:
 
     def balanceprint(self):
         print(self.balance)
-
-
-bc = Bankaccount(1000, "Viktor", 100)
-bc.withdraw(20)
-bc.deposit(30)
-bc.balanceprint()
-bc.withdraw(200)
-bc.deposit(0)
-bc.balanceprint()
-bc.withdraw(0)
-bc.deposit(300000)
-bc.balanceprint()
